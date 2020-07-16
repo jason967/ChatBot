@@ -1,5 +1,5 @@
 import requests
-import keys
+from hide import keys
 
 Secret = keys.Secret
 
