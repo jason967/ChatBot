@@ -12,7 +12,7 @@ def webhook():
 
 def results():
     req = request.get_json(force=True)
-    print(req)
+    print('input:'+req)
     print('-------------------------------')
     queryText = req.get('queryResult').get('queryText')
     print(queryText)
