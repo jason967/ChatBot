@@ -20,7 +20,7 @@ def path_param(param1, param2):
 
 @app.route('/body',methods=['POST'])
 def request_body():
-    print("Test: "+request.json)
+    #print("Test: "+request.json)
 
     body = request.json
     id = body['id']
