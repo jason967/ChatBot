@@ -1,6 +1,8 @@
 import requests
 from hide import keys
 
+import crawler
+
 Secret = keys.Secret
 
 headers = {
